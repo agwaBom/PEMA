@@ -187,7 +187,6 @@ python postprocess_generated_opt.py \
 ```
 
 ## Citation
-We plan to update citation after the paper is presented at NAACL 2024.
 ```
 @inproceedings{kim-etal-2024-pema,
     title = "{PEMA}: An Offsite-Tunable Plug-in External Memory Adaptation for Language Models",
