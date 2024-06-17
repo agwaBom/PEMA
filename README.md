@@ -1,13 +1,13 @@
 # PEMA: An Offsite-Tunable Plug-in External Memory Adaptation for Language Models [[paper](https://arxiv.org/abs/2311.08590)]
 
+This repository contains the official implementation of the paper "PEMA: An Offsite-Tunable Plug-in External Memory Adaptation for Language Models", accepted at the 2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics ([NAACL 2024](https://2024.naacl.org/)).
+
 <p align="center">
 <img src="figures/overview.png" width="600" alt="PEMA Overview">
 </p>
 <p align="center">
 Figure 1. Motivation for PEMA. (a) Data owners wishing to fine-tune PLMs face a challenge when the PLM owner refuses to share all model weights. (b) In the PEMA training phase, the data owner receives a context response (CR) from the PLM owner by providing a context prompt, subsequently training their PEMA model with their dataset. (c) At inference, the data owner receives a CR for test data from the PLM owner. Using Gradual Unrolling (GU), they generate the next token by interpolating between PEMA and PLM next-token probabilities.
 </p>
-
-This repository contains the official implementation of the paper "PEMA: An Offsite-Tunable Plug-in External Memory Adaptation for Language Models", accepted at the 2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics ([NAACL 2024](https://2024.naacl.org/)).
 
 ## Requirements
 - Hardware: Three RTX 8000 GPUs with 48GB GDDR6 memory.
